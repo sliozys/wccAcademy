@@ -1,0 +1,43 @@
+body {
+    /* height: 100%; */
+    background: linear-gradient(to bottom right, #0000ff 0%, #00ffff 100%);
+}
+
+#inputField {
+    height: 10%;
+    background: linear-gradient(to left, #ff0000 0%, #ff6600 100%);
+}
+
+#displayField {
+    height: 90vh;
+    background: linear-gradient(to bottom, #ffffcc 0%, #ffffff 100%);
+}
+
+.overrideheight {
+    height: 150%;
+    width: 80%;
+}
+
+#search-input {
+
+    /* background-image: "img/icons/movie.svg"; */
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+#searchButton {
+    height: 150%;
+}
+
+#searchIcon {
+    
+    background-color: rgba(245, 245, 245, 1);
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+  
+  #moviess option {
+    min-width: 250px;
+  }
